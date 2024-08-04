@@ -1,0 +1,187 @@
+:root{
+    --text-color: #777777;
+    --axent-color: #FED136;
+    --white: #fff;
+    --black: #222;
+    --text-input: #BBBBBB;
+    --border-color: #CCC;
+
+}
+
+.header{
+    margin-bottom: 109px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+p,
+a,
+h1,h2,h3,h4,
+ul,
+textarea{
+    margin: 0px;
+    padding: 0px;
+}
+    
+body{
+    color: var(--text-color);
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 1.17;
+}
+
+.logo{
+    font-family: "Bilbo Swash Caps";
+    font-size: 36px;
+    line-height: 1.13;
+    color: var(--axent-color);
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 109px;
+}
+
+.menu{
+    display: flex;
+    text-transform: uppercase; /*uppercase-все с большой буквы(все большие буквы) lowrecase-все с маленькой(все буквы маленькие)*/
+}
+
+.menu-item{
+    margin-right: 40px;
+}
+
+.menu-item:last-child{
+    margin-right: 0px; 
+}
+
+.menu-link{
+    color: var(--axent-color);
+    line-height: 2.92;
+}
+
+.invisible-title{
+    display: none; /* есть в коде но не видно на сайте */
+}
+
+.ul-service{
+
+}
+
+.li-service{
+
+}
+
+.service{
+  
+}
+
+.section-title-black{
+    color: var(--black);
+    font-size: 40px;
+    line-height: 1.22;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.item-title{
+    color: var(--black);
+    font-size: 18px;
+    line-height: 4.16;
+    font-weight: 700;
+    text-align: center;
+}
+
+.item-text{
+    font-family: "Roboto";
+}
+
+.contact{
+    background-color: var(--black);
+    color: var(--white);
+    padding: 92px 0px 109px;
+}
+
+.contact-input{
+    display: block;
+    padding: 18px 20px;
+    min-width: 455px;
+    margin-bottom: 28px;
+    border: 1px solid var(--border-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.21;
+    color: var(--text-input);
+    text-transform: uppercase;
+}
+
+.contact-input::placeholder{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.21;
+    color: var(--text-input);
+    text-transform: uppercase;
+}
+/*.contact-input:last-child{
+    margin-bottom: 0px;
+}*/
+
+.contact-textarea{
+    width: 456px;
+    height: 212px;
+    padding: 14px 22px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.21;
+    color: var(--text-input);
+    letter-spacing: -0.35px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+}
+
+.contact-textarea::placeholder{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.21;
+    color: var(--text-input);
+    letter-spacing:-0.35px;
+    text-transform: uppercase;
+}
+
+.section-title-white{
+    color: var(--white);
+    font-size: 40px;
+    line-height: 1.22;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.contact-btn{
+    padding: 24px 33px 24px;
+    text-transform: uppercase;
+    line-height: 1.21;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--white);
+    background-color: var(--axent-color);
+}
+
+.parent{
+    background-color: #3f51b5;
+}
+
+.child{
+    max-width: 220px;
+    margin: 0 auto;
+}

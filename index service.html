@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>service</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navigation">
+            <a class="logo" href="#">Golden</a>
+            <ul class="menu">
+                <li class="menu-item"><a class="menu-link" href="#">Home</a></li>
+                <li class="menu-item"><a class="menu-link" href="#">Services</a></li>
+                <li class="menu-item"><a class="menu-link" href="#">Portfolio</a></li>
+                <li class="menu-item"><a class="menu-link" href="#">About</a></li>
+                <li class="menu-item"><a class="menu-link" href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="invisible-title">Web studio</h1><!--необхідно прибрати видимісь за допомогою css-->
+        <section class="service">
+            <h2 class="section-title-black">Services</h2>
+            <ul class="ul-service">
+                <li class="li-service">
+                    <img src="" alt="">
+                    <h3 class="item-title">E-Commerce</h3>
+                    <p class="item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam odit provident enim sequi tenetur iure eum ipsam, sit ut error ex, autem quae molestias praesentium voluptatem a voluptas excepturi minus?</p>
+                </li>
+                <li class="li-service">
+                    <img src="" alt="">
+                    <h3 class="item-title">Responsive Web</h3>
+                    <p class="item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, maxime nam! Corporis similique velit corrupti itaque error, dicta provident veniam repellat unde doloribus voluptate atque, modi cum laudantium ex cumque?</p>
+                </li>
+                <li class="li-service">
+                    <img src="" alt="">
+                    <h3 class="item-title">Web Security</h3>
+                    <p class="item-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates debitis odit rem illo nemo ex minus quo architecto quidem rerum laudantium incidunt commodi unde suscipit, aliquid eaque. Officiis, vel voluptatum.</p>
+                </li>
+            </ul>
+        </section>
+<!--секція з формою-->
+        <section class="contact">
+            <h2 class="section-title-white">Contact us</h2>
+            <form class="contact-form" action="">
+
+                <div class="contact-wrap"></div>
+                <div class="contact-mini-wrap"></div>
+                <label class="">
+                    <input name="name" class="contact-input" type="text" placeholder="your name*" required>
+                </label>
+                <label >
+                    <input name="email" class="contact-input" type="email" placeholder="your e-mail*" required>
+                </label>
+                <label  >
+                    <input name="subject" class="contact-input" type="text" placeholder="subject">
+                </label>
+                <label class="label-area" >
+                    <textarea name="message" class="contact-textarea" id="" placeholder="message*" required></textarea>
+                </label>         
+
+
+                <button type="submit" class="contact-btn">sent message</button>
+            </form>
+
+            <!--<img src="./img/" alt="картинка" srcset="" width="420">-->
+        </section>
+
+    </main>
+</body>
+</html>
